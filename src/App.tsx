@@ -7,6 +7,8 @@ import { Gallery } from './components/Gallery';
 import { RSVP } from './components/RSVP';
 import { Registry } from './components/Registry';
 import { Footer } from './components/Footer';
+import bghero from './assets/bg-hero.jpg';
+
 import backgroundImage from 'figma:asset/3db6c423e96eaa957232a8cbc831b8cbf405470c.png';
 
 export default function App() {
@@ -30,7 +32,7 @@ export default function App() {
           <img 
             src={backgroundImage} 
             alt="Wedding background"
-            className="h-full w-full object-cover"
+            className="h-full w-full object-fill"
           />
         </motion.div>
         {/* Dark overlay with gradient for readability */}
