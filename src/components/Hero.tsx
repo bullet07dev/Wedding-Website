@@ -12,7 +12,7 @@ export function Hero() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <ImageWithFallback
-          src="src/assets/bg-hero.jpg"
+          src="src/assets/c78640b2ff49be42d67d9c33538297e3b14703b9.png"
           alt="Wedding couple"
           className="w-full h-full object-fill"
         />
